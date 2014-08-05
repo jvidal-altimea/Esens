@@ -1,0 +1,670 @@
+/***---------------------------------------------------
+			   Parametros por Defecto
+---------------------------------------------------***/
+body{
+	background:#000; 
+	font-family:Arial, Helvetica, sans-serif; font-weight:normal;
+    
+	-webkit-font-smoothing: antialiased; 
+	-moz-font-smoothing: antialiased; 
+	-ms-font-smoothing: antialiased; 
+	-o-font-smoothing: antialiased; 
+	font-smoothing: antialiased; 
+}
+.main{width:860px; margin:0 auto; padding:0 10px;}
+.center{margin-left:auto; margin-right:auto;}
+.msc{width:100%; float:left;}
+.left{float:left;}
+.right{float:right;}
+.timer{
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.timer1{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+section.contenedor, section.contenedor2, section.contenedor3{
+	width:100%; height:100%;
+	position:absolute; z-index:10; top:0;
+}
+section.contenedor2{top:100% !important; z-index:20 !important;}
+section.contenedor3{top:200% !important; z-index:25 !important; overflow:hidden;}
+.wow:first-child {visibility: hidden;}/*Fix*/
+/***---------------------------------------------------
+				 Style Look Cyzone
+---------------------------------------------------***/
+/** Style - Elementos Flotantes **/
+#head_container{
+	height:94px;
+	border-bottom:dotted 1px #fb990c;
+	padding:10px 0;
+	position:fixed; z-index:31;
+}
+#head_container .main{width:900px !important;}
+#head_container .head_logo{
+	background:url(../image/set-icons.png) -417px -341px no-repeat;
+	width:103px; height:46px;
+	margin:14px auto 14px;
+	display:block;
+}
+#head_container .head_menu ul{text-align:center;}
+#head_container .head_menu ul, #head_container .head_menu ul li{ list-style:none; display:inline-block; margin:0 padding:0; }
+#head_container .head_menu ul li a{
+	color:#fff; font-family: 'bentonsansmedium'; font-size:14px;
+	margin:5px 11px; padding-bottom:4px;
+	-webkit-transition: ease-in-out 0.2s;
+	-moz-transition: ease-in-out 0.2s;
+	-ms-transition: ease-in-out 0.2s;
+	-o-transition: ease-in-out 0.2s;
+	transition: ease-in-out 0.2s;
+}
+#head_container .head_menu ul li a span{
+	background:#fb990c;
+	width:7px; height:7px;
+	margin-bottom: 2px;
+	margin-right: 8px;
+	display:inline-block;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+#head_container .head_menu ul li a.mPS2id-highlight{border-bottom: solid 1px rgba(251,153,12,0.56);}
+
+#head_container .head_redes{margin-top:4px;}
+#head_container .head_redes p{
+	color:#fff; font-family: 'bentonsansbook'; font-size:13px; font-weight:normal;
+	margin:4px 5px 4px 59px;
+	float:left;
+}
+#head_container .head_redes a{
+	background-image:url(../image/set-icons.png); background-repeat:no-repeat;
+	width:23px; height:23px;
+	margin:0 3px;
+	float:left;
+}
+#head_container .head_redes a.face{background-position:-442px -404px;}
+#head_container .head_redes a.twit{background-position:-470px -404px;}
+
+.general{z-index:29 !important;}/*Fix*/
+.creadores{
+	width:110px; height:303px;
+	position:fixed; z-index:35; top:50%; right:13px;
+	margin-top:-127px;
+}
+.creadores h5{
+	color:#ff9900; font-family: 'austinitalic'; font-size:18px; font-weight:normal;
+	margin:0 0 7px 0;
+}
+.creadores img{
+	background: rgba(255,255,255,1);
+	border:0;
+	margin:4px 0; padding:5px;
+	float:left; clear:left;
+}
+.creadores img:hover{background: rgba(255,255,255,0.2);}
+.creadores strong{
+	width:22px; height:22px;
+	border:solid 2px rgba(255,255,255,0.5) !important;
+	margin:-40px 13px;
+	display:block;
+	float:left; clear:left;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.creadores:hover strong{margin:-45px 13px;}
+.creadores strong:hover{border:solid 2px rgba(255,255,255,0.1) !important;}
+.creadores strong b{
+	background: url(../image/set-icons.png) -693px -6px no-repeat;
+	width:22px; height:22px;
+	overflow:hidden;
+	display:block;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.master .mascara{
+	width:100%; height:100%;
+	position:absolute; z-index:10 !important;
+	overflow:hidden;
+}
+
+/** Style - Caja 1 **/
+.master .mascara .productos{
+	height:328px;
+	position:absolute; top:50%;
+	margin-top:-164px;
+}
+.master .mascara .productos p{width:100%; color:#fff; font-family: 'bentonsansbook'; font-size:13px; font-weight:normal; text-align:center; display:inline-block;}
+.master .mascara .productos article.datos{width:205px; height:280px; margin:0 0 30px 35px; float:left;}
+.master .mascara .productos article.datos h1{width:100%; color:#ff9900; font-family:  'Conv_Austin-Light'; font-size:50px; font-weight:normal; text-align:left; display:inline-block;}
+.master .mascara .productos article.datos .esens{
+	background:url(../image/set-icons.png) -178px -360px no-repeat;
+	width:188px; height:72px;
+	margin:10px 0 35px;
+}
+.master .mascara .productos article.datos p{
+	font-family: 'bentonsansbook'; font-size:19px; font-weight:normal; text-align:left;
+	text-transform:uppercase; line-height:26px;	
+}
+.master .mascara .productos .articulos{
+	width:540px; height:280px;
+	margin:0 35px 30px 0;
+	float:right;
+}
+.master .mascara .productos .articulos .cnt_destello{
+	position:absolute; z-index:5;
+	margin:-19px 0 0 155px;
+}
+.master .mascara .productos .articulos .destello{
+	background:url(../image/set-icons.png) -553px -198px no-repeat;
+	width:164px; height:125px;
+	opacity:1;
+
+	-webkit-animation: destello 4s infinite;
+	-moz-animation:    destello 4s infinite;
+	-o-animation:      destello 4s infinite;
+	animation:         destello 4s infinite;
+}
+.master .mascara .productos .articulos .embase{
+	background-image:url(../image/set-esens.png);
+	background-repeat:no-repeat;
+	width:192px; height:262px;
+	position:relative; z-index:2;
+	display:block;
+	float:left;
+}
+.master .mascara .productos .articulos .liso{background-position:-4px 0;}
+.master .mascara .productos .articulos .rizos{background-position:-198px 0; width:140px; margin-left: 82px;}
+.master .mascara .productos .articulos .prevencion{background-position:-339px 0; margin:27px 0 0 106px; position:absolute; z-index:3;}
+.master .mascara .productos .articulos .cabello{background-position:-533px 0; margin:24px 0 0 353px; position:absolute; z-index:3;}
+.master .mascara .productos .articulos .reflejo{
+	background:url(../image/set-icons.png) -9px -18px no-repeat;
+	width:540px; height:280px;
+	position:absolute; z-index:1;
+}
+
+/** Style - Caja 2 **/
+.master .mascara .productos_detalle{
+	height:564px;
+	margin-top:-240px;
+	position:absolute; top:50%;
+	text-align:center;   
+	position:relative; _overflow: hidden;
+}
+.master .mascara .productos_detalle .titulo{
+	color:#fff; font-family: 'Conv_Austin-Light'; font-size:37px; font-weight:normal;
+	text-align:center;
+	margin-top:6px;
+	margin-bottom:4px;
+}
+.master .mascara .productos_detalle .pro_bloq{width:792px; margin:0 34px;  opacity:1;}
+.master .mascara .productos_detalle .pro_bloq blockquote{
+	width:183px; height:435px;
+	margin:15px 7.5px; padding:0;
+	overflow:hidden;
+	display:inline-block;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote .fliper{
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
+
+/*Flip Event*/
+.master .mascara .productos_detalle .pro_bloq .fliper .card { 
+	background:#000;
+	width:183px; height:435px;
+	position: absolute !important;
+	float:left;
+	
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	backface-visibility:hidden;
+}
+.master .mascara .productos_detalle .pro_bloq .fliper .front {
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	z-index: 10;
+}
+.master .mascara .productos_detalle .pro_bloq .fliper .back {
+	width:183px; height:435px;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	overflow:hidden;
+	z-index:20;
+}
+.master .mascara .productos_detalle .pro_bloq .fliper .back img{position:relative !important; z-index:50;}
+.master .mascara .productos_detalle .pro_bloq .fliper .back .detalle{position:relative !important; z-index:50;}
+.rotate-3d {
+	width:183px !important; height:435px !important;
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	position:relative !important;
+	float:left;
+}
+.rotate-3d1 {
+	width:183px !important; height:435px !important;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	position:relative !important;
+	float:left;
+}
+
+.master .mascara .productos_detalle .pro_bloq:hover blockquote img {opacity:0.5 !important;}
+.master .mascara .productos_detalle .pro_bloq:hover blockquote strong {opacity:0.5 !important;}
+.master .mascara .productos_detalle .pro_bloq:hover blockquote .detalle {opacity:0.5 !important;}
+.master .mascara .productos_detalle .pro_bloq blockquote:hover img {opacity:1 !important;}
+.master .mascara .productos_detalle .pro_bloq blockquote:hover strong {opacity:1 !important;}
+.master .mascara .productos_detalle .pro_bloq blockquote:hover .detalle {opacity:1 !important;}
+/*- Colores -*/
+.master .mascara .productos_detalle .pro_bloq blockquote.morado .detalle h2{color:#752a9b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.morado .detalle h2 span{text-shadow: 0 0 0 #752a9b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.morado .detalle a{background:#752a9b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.morado .lineat{background:#752a9b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.morado .lineab{background:#752a9b;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote.turquesa .detalle h2{color:#11ab84;}
+.master .mascara .productos_detalle .pro_bloq blockquote.turquesa .detalle h2 span{text-shadow: 0 0 0 #11ab84;}
+.master .mascara .productos_detalle .pro_bloq blockquote.turquesa .detalle a{background:#11ab84;}
+.master .mascara .productos_detalle .pro_bloq blockquote.turquesa .lineat{background:#11ab84;}
+.master .mascara .productos_detalle .pro_bloq blockquote.turquesa .lineab{background:#11ab84;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote.rosado .detalle h2{color:#d2224b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.rosado .detalle h2 span{text-shadow: 0 0 0 #d2224b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.rosado .detalle a{background:#d2224b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.rosado .lineat{background:#d2224b;}
+.master .mascara .productos_detalle .pro_bloq blockquote.rosado .lineab{background:#d2224b;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote.naranja .detalle h2{color:#d27a18;}
+.master .mascara .productos_detalle .pro_bloq blockquote.naranja .detalle h2 span{text-shadow: 0 0 0 #d27a18;}
+.master .mascara .productos_detalle .pro_bloq blockquote.naranja .detalle a{background:#d27a18;}
+.master .mascara .productos_detalle .pro_bloq blockquote.naranja .lineat{background:#d27a18;}
+.master .mascara .productos_detalle .pro_bloq blockquote.naranja .lineab{background:#d27a18;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote img{
+	width:183px; height:210px; float:left;
+	position:relative;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote a.flip, .master .mascara .productos_detalle .pro_bloq blockquote a.flip1, .master .mascara .productos_detalle .pro_bloq blockquote a.flip2, .master .mascara .productos_detalle .pro_bloq blockquote a.flip3, .master .mascara .productos_detalle .pro_bloq blockquote a.flip4, .master .mascara .productos_detalle .pro_bloq blockquote a.flipr, .master .mascara .productos_detalle .pro_bloq blockquote a.flipr1, .master .mascara .productos_detalle .pro_bloq blockquote a.flipr2, .master .mascara .productos_detalle .pro_bloq blockquote a.flipr3, .master .mascara .productos_detalle .pro_bloq blockquote a.flipr4{
+	background:none !important;
+	width:100%; height: 434px;
+	margin:0 -182px;
+	position:absolute; z-index:50 !important; 
+	float:left;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote a strong{
+	width:27px; height:27px;
+	border:solid 3px rgba(255,255,255,0.5) !important;
+	margin:166px 0 0 10px;
+	display:block;
+	float:left; clear:left;
+	position:relative; z-index:5;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote a strong:hover{border:solid 3px rgba(255,255,255,0.1) !important;}
+.master .mascara .productos_detalle .pro_bloq blockquote a strong b.add, .master .mascara .productos_detalle blockquote a strong b.del{
+	background: url(../image/set-icons.png) -691px -4px no-repeat;
+	width:27px; height:27px;
+	overflow:hidden;
+	display:block;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote a strong b.del{background: url(../image/set-icons.png) -691px -41px no-repeat;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote .detalle{
+	background:#fff;
+	width:139px; height:180px;
+	padding:22px; 
+	float:left;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote .lineat, .master .mascara .productos_detalle blockquote .lineab{width:2px; height:435px; opacity:0; position:absolute;}
+.master .mascara .productos_detalle .pro_bloq blockquote .lineat{margin-top: 435px; margin-left:-2px;}
+.master .mascara .productos_detalle .pro_bloq blockquote .lineab{margin-top: -435px; margin-left:183px;}
+.master .mascara .productos_detalle .pro_bloq blockquote:hover .lineat, .master .mascara .productos_detalle blockquote:hover .lineab{margin-top: 0; opacity:1;}
+
+.master .mascara .productos_detalle .pro_bloq blockquote .detalle h2{
+	font-family: 'bentonsansmedium'; font-size:19px; font-weight:normal; 
+	line-height:20px; text-transform:uppercase; text-align:left;
+	margin-bottom:10px;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote .detalle h2 span{
+	width:100%;
+	font-family: 'bentonsanslight'; font-size:12px; font-weight:normal;
+	margin-top:-1px;
+	display:block;
+}
+.master .mascara .productos_detalle .pro_bloq blockquote .detalle p{ 
+	height:64px;
+	color:#000; font-family: 'bentonsansbook'; font-size:13px; font-weight:normal; 
+	line-height:15px; text-align:left; text-shadow:0 0 0 #000;
+}
+
+.master .mascara .productos_detalle .pro_bloq blockquote .detalle a{ 
+	width:100%; height:38px;
+	color:#fff; font-family: 'bentonsansmedium'; font-size:14px; font-weight:normal; 
+	line-height:35px; text-align:center;
+	position:relative; z-index:60;
+	margin:0;
+}
+.master .mascara .productos_detalle a{
+	width:807px;
+	color:#919191; font-family: 'bentonsansbook'; font-size:14px; font-weight:normal;
+	text-align:left;
+	margin:23px 0 0 0;
+	position:relative; z-index:2;
+	clear:left;
+	display:inline-block;
+}
+
+/** Style - Caja 3 **/
+.master .mascara .tips{
+	width:860px; height:337px;
+	margin:-168.5px auto 0;
+	position:absolute; top:50%;
+}
+.master .mascara .tips .titulo{
+	color:#fff; font-family: 'Conv_Austin-Light'; font-size:37px; font-weight:normal;
+	margin-left:83px;
+	text-align:left;
+}
+.master .mascara .tips #wrapper {    
+    width: 697px;
+	height: 230px;
+	padding-top: 70px;
+	margin: 0 81px;
+	position: relative;
+	float:left;
+}
+.master .mascara .tips #wrapper .fade{
+	width: 81.5px; height: 185px;
+	margin:-185px -3px 0 -3px;
+	
+	position:relative; z-index:5;
+}
+.master .mascara .tips #wrapper .rotate{
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.master .mascara .tips #wrapper a.arrow {
+	color:#fff; font-size:75px;
+	margin:-187px -50px 0 -50px;
+	position:relative; z-index:10;
+	display:block;
+}
+.master .mascara .tips #wrapper a.disabled {display:none !important;}
+.master .mascara .tips #wrapper a.prev {float:left;}
+.master .mascara .tips #wrapper a.next {float:right;}
+.master .mascara .tips #wrapper .galeria > div {
+	width: 697px; height: 185px;
+	float: left;
+	overflow: hidden;
+}
+.master .mascara .tips #wrapper .galeria > div span{display:none;}
+.master .mascara .tips #wrapper .galeria img {
+	background:#fff;
+	padding:6px;
+	display: block;
+	float: right;
+}
+.master .mascara .tips #wrapper .galeria h3 {
+	width: 370px;
+	color:#fff; font-family: 'bentonsansmedium'; font-size:19px; font-weight:normal; 
+	text-transform:uppercase;	
+	line-height: 23px;
+	margin: 0 0 15px 0;
+}
+.master .mascara .tips #wrapper .galeria p {
+	width: 370px;
+	color:#fff; font-family: 'bentonsansbook'; font-size:13px; font-weight:normal; 
+	line-height: 22px;
+}
+.master .mascara .tips #wrapper #pager {
+	width: 860px;
+	margin: 0 auto 25px auto;
+	text-align: center;
+}
+
+/*Control Grupo de Galeria*/
+.categorias {
+	width: 860px;
+    position: relative;
+	margin: 0 auto;
+	float:left;
+}
+.categorias input {
+	position: absolute; z-index: 1000; left: 0px; top: 0px;
+	height: 40px;	
+	opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+	cursor: pointer;
+}
+.categorias input#tab-1{width: 81px; left: 78px;}
+.categorias input#tab-2{width: 97px; left: 175px;}
+.categorias input#tab-3{width: 110px; left: 288px;}
+.categorias input#tab-4{width: 111px; left: 413px;}
+.categorias label {	
+	cursor:pointer;
+	position: relative;
+	margin:10px 15px 0 0; padding: 0;
+    float: left;
+	display: block;		
+}
+.categorias label span {
+	border-bottom: dotted 1px #fff;
+	color:#fff; font-family: 'bentonsansbook'; font-size:14px; font-weight:normal; 
+	padding: 10px 0;
+	display:block;
+}
+.categorias label span.morado{margin-left:83px;}
+.categorias label:after {
+    content: '';
+	position: absolute; bottom: -2px; left: 0;
+	width: 100%; height: 2px;
+	display: block;
+}
+.categorias label:first-of-type {z-index: 4;}
+.tab-label-2 {z-index: 3;}
+.tab-label-3 {z-index: 2;}
+.tab-label-4 {z-index: 1;}
+.categorias input:checked + label span{	
+	z-index: 6;	
+    -webkit-animation: all 0.2s;
+    -moz-animation: all 0.2s;
+    -ms-animation: all 0.2s;
+    -o-animation: all 0.2s ;
+    animation: all 0.2s;
+}
+.categorias input:checked + label span.morado{color: #75299b; border-color: #75299b;}
+.categorias input:checked + label span.turquesa{color: #11ab84; border-color: #11ab84;}
+.categorias input:checked + label span.rosa{color: #d2224b; border-color: #d2224b;}
+.categorias input:checked + label span.naranja{color: #d27a18; border-color: #d27a18;}
+.clear-shadow {clear: both;}
+.contenidos {
+    _background: #000;
+	position: relative; z-index: 5;
+    width: 100%; height: 300px;	
+	overflow: hidden;
+}
+.contenidos p{color:#fff; font-size:15px;}
+.contenidos .content-1, .contenidos .content-2, .contenidos .content-3,.contenidos .content-4{
+    width: 100%; _height: 370px;
+    position: absolute; z-index: 1;	top: 0;
+	padding: 0;	
+    opacity: 0;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.content-1, .content-3 {
+	-webkit-transform: translateX(-250px);
+	-moz-transform: translateX(-250px);
+	-o-transform: translateX(-250px);
+	-ms-transform: translateX(-250px);
+	transform: translateX(-250px);
+}
+.content-2, .content-4 {
+    -webkit-transform: translateX(250px);
+	-moz-transform: translateX(250px);
+	-o-transform: translateX(250px);
+	-ms-transform: translateX(250px);
+	transform: translateX(250px);
+}
+.categorias input.tab-selector-1:checked ~ .contenidos .content-1, .categorias input.tab-selector-2:checked ~ .contenidos .content-2, .categorias input.tab-selector-3:checked ~ .contenidos .content-3, .categorias input.tab-selector-4:checked ~ .contenidos .content-4 {
+    -webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+	z-index: 100;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: all ease-out 0.2s 0.1s;
+    -moz-transition: all ease-out 0.2s 0.1s;
+    -o-transition: all ease-out 0.2s 0.1s;
+    -ms-transition: all ease-out 0.2s 0.1s;
+    transition: all ease-out 0.2s 0.1s;
+}
+
+.pagination {text-align: center;}
+.pagination a {
+    background: #75299b;
+    width: 10px; height: 10px;
+    margin: 34px 15px 0 15px;
+    display: inline-block;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	
+	opacity:0.5;
+}
+.turquesa a {background: #11ab84 !important;}
+.rosado a {background: #d2224b !important;}
+.naranja a {background: #d27a18 !important;}
+.pagination a.selected {cursor: default; opacity:1;}
+.pagination a span {display: none;}
+
+/** Style - Legales **/
+.legales{
+	color:#fff; font-family: 'bentonsansbook'; font-size:14px; font-weight:normal;
+	text-decoration:none; text-align:left;
+	margin-left:40px;
+	position:absolute; z-index:50; bottom:63px;
+	display:block;
+	clear:left;
+}
+.legales:hover{color:#fff;}
+
+/** Style - Controles **/
+.master .mascara .controles{height:92px; text-align:center; position:absolute; z-index:1; bottom:0; overflow:hidden;}
+.master .mascara .controles .vista, .master .mascara .controles .original{overflow:hidden;}
+.master .mascara .controles .original{ margin-top:-93px;}
+.master .mascara .controles:hover .original{ margin-top:0;}
+
+.master .mascara .controles a b {	
+	border: solid 4px rgba(255,255,255,0.2);
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	margin:0 3px 38px -3px;
+	display:inline-block;
+}
+.master .mascara .controles a b.anim {
+	 position:relative; z-index:1;	
+	-webkit-animation: to-scroll 2s infinite;
+	-moz-animation:    to-scroll 2s infinite;
+	-o-animation:      to-scroll 2s infinite;
+	animation:         to-scroll 2s infinite;
+}
+
+.master .mascara .controles a:hover b {	border: solid 4px rgba(255,255,255,0.1); }
+.master .mascara .controles a b span {		
+	background-image:url(../image/set-icons.png);
+	background-repeat:no-repeat;
+	background-color:#f8f8f8;
+	width:43px; height:43px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	display:block;
+}
+.master .mascara .controles a b span.cnt_flecha_down { background-position: -25px -349px; }
+.master .mascara .controles a:hover b span.cnt_flecha_down { background-position: -25px -398px; }
+
+.master .mascara .controles a b span.cnt_flecha_up { background-position: -80px -400px;}
+.master .mascara .controles a:hover b span.cnt_flecha_up { background-position: -80px -352px; } 
+
+/** Style - Elementos Flotantes en Background **/
+.master .elemento{background-image:url(../image/set-flores.png); background-repeat:no-repeat; z-index:1;}
+.master .elemento1{background-image:url(../image/set-flores1.png); background-repeat:no-repeat; z-index:12;}
+.master .contendor_e1{
+	background-position: 0 0;
+	width:710px; height:520px;
+	position:absolute;  bottom:-10%; left:10%;
+}
+.master .contendor_e2{
+	background-position: 0 -530px;
+	width:260px; height:425px;
+	position:absolute; top:0; left:0;
+}
+.master .posision2{top:-50% !important; left:-100% !important;}
+.master .contendor_e3{
+	background-position: -404px -534px;
+	width:300px; height:438px;
+	position:absolute; bottom:10%; right:0;
+}
+.master .contendor_e4{
+	background-position: -37px -969px;
+	width:477px; height:397px;
+	position:absolute; top:0; right:20%;
+}
+
+/** Style - Seleccion Elementos **/
+::selection{background: rgba(251, 153, 12, 0.8); color: #fff;}
+::-webkit-selection{background: rgba(251, 153, 12, 0.8); color: #fff;}
+::-moz-selection{background: rgba(251, 153, 12, 0.8); color: #fff;}
+::-ms-selection{background: rgba(251, 153, 12, 0.8); color: #fff;}
+::-o-selection{background: rgba(251, 153, 12, 0.8); color: #fff;}

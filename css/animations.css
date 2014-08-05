@@ -1,0 +1,15 @@
+@-webkit-keyframes to-scroll {0% {margin:0; opacity:0.3;} 50% {margin:15px 0 0 0; opacity:1;} 100% {margin:0; opacity:0.3;}}
+@-moz-keyframes to-scroll {0% {margin:0; opacity:0.3;} 50% {margin:15px 0 0 0; opacity:1;} 100% {margin:0; opacity:0.3;}}
+@-o-keyframes to-scroll {0% {margin:0; opacity:0.3;} 50% {margin:15px 0 0 0; opacity:1;} 100% {margin:0; opacity:0.3;}}
+@keyframes to-scroll {0% {margin:0; opacity:0.3;} 50% {margin:15px 0 0 0; opacity:1;} 100% {margin:0; opacity:0.3;}}
+
+@-webkit-keyframes destello {0% {opacity:1;} 25% {opacity:0.4;} 100% {opacity:1;}}
+@-moz-keyframes destello {0% {opacity:1;} 25% {opacity:0.4;} 100% {opacity:1;}}
+@-o-keyframes destello {0% {opacity:1;} 25% {opacity:0.4;} 100% {opacity:1;}}
+@keyframes destello {0% {opacity:1;} 25% {opacity:0.4;} 100% {opacity:1;}}
+
+@keyframes page {0% {left: 0;} 50% {left: 10px;} 100% {left: 0;}}
+@-moz-keyframes page {0% {left: 0;} 50% {left: 10px;} 100% {left: 0;}}
+@-webkit-keyframes page {0% {left: 0;} 50% {left: 10px;} 100% {left: 0;}}
+@-ms-keyframes page {0% {left: 0;} 50% {left: 10px;} 100% {left: 0;}}
+@-o-keyframes page {0% {left: 0;} 50% {left: 10px;} 100% {left: 0;}}
